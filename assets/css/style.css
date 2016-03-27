@@ -1,0 +1,297 @@
+
+
+.wrapper {
+	overflow-x:hidden;
+}
+
+
+.navbar{
+    background:transparent;
+    border:none !important;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.navbar-default .navbar-nav > li > a:after {
+
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+
+
+.landing-img {
+    padding-top: 500px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: -webkit-linear-gradient(top, rgb(58, 63, 67), rgba(0, 0, 0, 0.83)), url(../images/bubbles.png) repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+
+#container{
+   position: absolute;
+   top: 50%;
+   margin-top: -200px;/* half of #content height*/
+   left: 0;
+   width: 100%;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 47px;
+	height: 75px;
+	max-width: 450px;
+	font-weight: 600;
+	color: #F0BA45;
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+   	margin-right: auto;
+
+	/*text-shadow: 1px 1px 1px #aaa;*/
+	/*background-color: #000;
+	padding: 10px;
+*/
+
+}
+
+#sub-title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	max-width: 450px;
+	height: 80px;
+	color: #fff;
+	text-align: center;
+	line-height: 1.8em;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px 5px;
+    display: block;
+
+}
+
+#deets {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	width: 400px;
+	height: 40px;
+	color: #999;
+	text-align: center;
+	margin-left: auto;
+   	margin-right: auto;
+	line-height: 1.5em;
+	position: relative;
+	padding: 15px 0px;
+
+
+}
+
+
+
+.rsvp-button {
+	padding: 5px 25px;
+	font-family: 'Raleway', sans-serif;
+	width: 200px;
+	font-size: 20px;
+	border: 1px #fff solid;
+	border-radius: 3%;
+	margin-left: auto;
+   	margin-right: auto;
+   	margin-top: 30px;
+	transition: all .4s ease-in-out;
+
+}
+
+.rsvp-button:hover {
+	background-color: #fff;
+	color: #000;
+
+}
+
+
+
+
+ .affix {
+      top: 10;
+      width: 100%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      background-color: #000;
+      border-color: #000;
+
+  }
+  .affix a {
+      color: #fff !important;
+      padding: 20px !important;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top a {
+      padding: 10px 20px !important;
+  }
+  .affix + .container-fluid {
+      padding-top: 10px;
+  }
+
+
+ .navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px;
+  position: relative;
+  color: #fff;
+  max-width: 335px;
+}
+
+
+.section {
+background-color: #fff;
+width: 100%;
+overflow: hidden;
+padding-bottom: 50px;
+
+}
+
+
+#section-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 27px;
+	font-weight: 600;
+	max-width: 450px;
+	height: 100px;
+	padding: 10px;
+	margin: 0px auto;
+	text-align: center;
+
+}
+
+.content {
+	max-width: 700px;
+	height: 100%;
+	padding-top: 40px;
+	position: relative;
+	margin: 0px auto;
+}
+
+#about-text {
+  color: #333;
+  width: 400px;
+  float:left;
+  clear: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  padding: 20px 35px;
+  line-height: 1.8em;
+
+}
+
+.komb-logo {
+	background: url(../images/kombucha-bottles.png) no-repeat center center;
+	background-size: cover;
+	width: 232px;
+	height: 300px;
+	float: right;
+	margin-left: 20px;
+
+}
+
+.event-deets-container {
+
+  max-width: 400px;
+  float:left;
+  clear: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 30px 0px;
+  position: relative;
+
+
+}
+
+.deet-box {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	display: inline-block;
+
+}
+
+
+
+#deet-color {
+	color: #F0BA45;
+	font-family: 'Raleway', sans-serif;
+  	font-size: 15px;
+  	font-weight: 600;
+  	border-top: 2px solid #F0BA45;
+  	padding-top: 5px;
+  	display: inline-block;
+
+}
+
+#deet-info {
+	font-size: 14px;
+	line-height: 1.8em;
+	padding: 15px 0px;
+}
+
+#deet-info > a {
+	color: #333;
+	border-bottom: 1px dotted #999;
+	transition: .2s ease-in-out;
+}
+
+#deet-info > a:hover {
+	background-color: #F0BA45;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 440px) {
+
+  .komb-logo {
+  	max-width: 90%;
+  	margin: 0 auto;
+  	float:none;
+  }
+
+  #sub-title {
+  	max-width: 400px;
+  	height: 100px;
+  	padding: 20px 35px; }
+
+
+
+}
