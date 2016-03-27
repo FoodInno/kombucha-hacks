@@ -1,4 +1,8 @@
 
+
+.wrapper {
+	overflow-x:hidden;
+}
 .landing-img {
     padding-top: 500px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -10,16 +14,7 @@
 }
 
 
-.komb-logo {
-	background: url(../images/kombucha-bottles.png) no-repeat center center;
-	background-size: cover;
-	width: 232px;
-	height: 300px;
-	float: right;
 
-
-
-}
 
 #container{
    position: absolute;
@@ -37,10 +32,9 @@
 	font-weight: 600;
 	color: #F0BA45;
 	display: inline-block;
-	margin-bottom: 10px;
 	text-align: center;
 	margin-left: auto;
-   margin-right: auto;
+   	margin-right: auto;
 
 	/*text-shadow: 1px 1px 1px #aaa;*/
 	/*background-color: #000;
@@ -54,27 +48,32 @@
 	font-size: 16px;
 	font-weight: 300;
 	max-width: 450px;
-	height: 70px;
+	height: 80px;
 	color: #fff;
 	text-align: center;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	margin-left: auto;
-   margin-right: auto;
+    margin-right: auto;
+    padding: 10px 5px;
+    display: block;
 
 }
 
 #deets {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: 600;
-	width: 500px;
-	height: 30px;
+	width: 400px;
+	height: 40px;
 	color: #999;
 	text-align: center;
-	top: 100%;
 	margin-left: auto;
    	margin-right: auto;
 	line-height: 1.5em;
+	position: relative;
+	padding: 15px 0px;
+
+
 }
 
 
@@ -86,10 +85,9 @@
 	font-size: 20px;
 	border: 1px #fff solid;
 	border-radius: 3%;
-	top: 120%;
 	margin-left: auto;
    	margin-right: auto;
-   	margin-top: 20px;
+   	margin-top: 30px;
 	transition: all .4s ease-in-out;
 
 }
@@ -104,6 +102,12 @@
     background:transparent;
     border:none !important;
 }
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 
 
  .affix {
@@ -137,13 +141,15 @@
   padding: 5px;
   position: relative;
   color: #fff;
+  max-width: 335px;
 }
 
 
 .section {
 background-color: #fff;
 width: 100%;
-height: 400px;
+overflow: hidden;
+padding-bottom: 50px;
 
 }
 
@@ -153,14 +159,15 @@ height: 400px;
 	font-size: 27px;
 	font-weight: 600;
 	max-width: 450px;
-	height: 30px;
+	height: 100px;
+	padding: 10px;
 	margin: 0px auto;
 	text-align: center;
 
 }
 
 .content {
-	max-width: 800px;
+	max-width: 700px;
 	height: 100%;
 	padding-top: 40px;
 	position: relative;
@@ -168,15 +175,68 @@ height: 400px;
 }
 
 #about-text {
-  color: #000;
+  color: #333;
   width: 400px;
   float:left;
+  clear: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  padding: 20px 35px;
+  line-height: 1.8em;
+
+}
+
+.komb-logo {
+	background: url(../images/kombucha-bottles.png) no-repeat center center;
+	background-size: cover;
+	width: 232px;
+	height: 300px;
+	float: right;
+	margin-left: 20px;
+
+}
+
+.event-deets-container {
+
+  max-width: 400px;
+  float:left;
+  clear: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 400;
   padding: 30px 0px;
   position: relative;
 
+
+}
+
+.deet-box {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	display: inline-block;
+
+}
+
+
+
+#deet-color {
+	color: #F0BA45;
+	font-family: 'Raleway', sans-serif;
+  	font-size: 15px;
+  	font-weight: 600;
+  	border-top: 2px solid #F0BA45;
+  	padding-top: 5px;
+  	display: inline-block;
+
+}
+
+#deet-info {
+	font-size: 14px;
+	line-height: 1.8em;
+	padding: 15px 0px;
 }
 
 
@@ -199,4 +259,20 @@ height: 400px;
 }
 .navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
+}
+
+@media only screen and (max-width: 440px) {
+
+  .komb-logo {
+  	max-width: 90%;
+  	margin: 0 auto;
+  	float:none;
+  }
+
+  #sub-title {
+  	max-width: 400px;
+  	padding: 20px 35px; }
+
+
+
 }
