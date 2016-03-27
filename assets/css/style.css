@@ -3,6 +3,41 @@
 .wrapper {
 	overflow-x:hidden;
 }
+
+
+.navbar{
+    background:transparent;
+    border:none !important;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.navbar-default .navbar-nav > li > a:after {
+
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+
+
 .landing-img {
     padding-top: 500px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -98,15 +133,6 @@
 
 }
 
-.navbar{
-    background:transparent;
-    border:none !important;
-}
-
-.container-fluid {
-	padding-left: 0px;
-	padding-right: 0px;
-}
 
 
 
@@ -239,27 +265,19 @@ padding-bottom: 50px;
 	padding: 15px 0px;
 }
 
-
-.navbar-default .navbar-nav > li > a:after {
-
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 0;
-  height: 3px;
-  background-color: #fff;
-  content: "";
-
+#deet-info > a {
+	color: #333;
+	border-bottom: 1px dotted #999;
+	transition: .2s ease-in-out;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+#deet-info > a:hover {
+	background-color: #F0BA45;
 	color: #fff;
+	text-decoration: none;
 }
-.navbar-default .navbar-nav > li > a:hover:after {
-  width: 100%;
-}
+
+
 
 @media only screen and (max-width: 440px) {
 
@@ -271,6 +289,7 @@ padding-bottom: 50px;
 
   #sub-title {
   	max-width: 400px;
+  	height: 100px;
   	padding: 20px 35px; }
 
 
