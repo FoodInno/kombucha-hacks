@@ -371,6 +371,7 @@ tbody {
   	max-width: 400px;
   	height: 120px;
   	padding: 15px 30px;
+  	display: inline-block;
   }
 
   #deets {
