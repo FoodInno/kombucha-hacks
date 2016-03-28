@@ -358,10 +358,8 @@ tbody {
   }
 
 
-  .title {
-  	height: 130px;
+  #title {
   	font-size: 35px;
-  	overflow: hidden;
   }
 
 
