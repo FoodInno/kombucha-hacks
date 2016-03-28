@@ -359,8 +359,8 @@ tbody {
 
 
   .title {
-  	line-height: 1em;
-  	height: 200px;
+  	height: 130px;
+  	overflow: hidden;
   }
 
   #container {
