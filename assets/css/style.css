@@ -360,18 +360,15 @@ tbody {
 
   .title {
   	height: 130px;
+  	font-size: 35px;
   	overflow: hidden;
   }
 
-  #container {
-   position: absolute;
-   top: 50%;
-   margin-top: -100px;
-  }
 
   #sub-title {
   	height: 90px;
   	padding: 15px 30px;
+  	font:; 15px;
   	display: inline-block;
   }
 
