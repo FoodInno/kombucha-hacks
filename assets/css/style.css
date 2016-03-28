@@ -347,14 +347,24 @@ tbody {
 
 @media (max-width: 480px) {
 
+
+  .komb-div {
+  	margin: 20px;
+
+  }
   .komb-logo {
-  	max-width: 90%;
   	margin: 0 auto;
   	float:none;
   }
 
+
   .title {
   	padding-top: 30px;
+  	line-height: 1em;
+  }
+
+  .container {
+  	top: 100;
   }
 
   #sub-title {
