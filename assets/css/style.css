@@ -96,7 +96,7 @@ body {
 	line-height: 1.8em;
 	margin-left: auto;
     margin-right: auto;
-    padding: 10px 0px;
+    padding: 10px 5px;
     display: block;
 
 }
@@ -345,29 +345,27 @@ tbody {
 }
 
 
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 480px) {
 
+  .komb-logo {
+  	max-width: 90%;
+  	margin: 0 auto;
+  	float:none;
+  }
 
-	  .komb-logo {
-	  	max-width: 90%;
-	  	margin: 0 auto;
-	  	float:none;
-	  }
+  .title {
+  	padding-top: 30px;
+  }
 
-	  .title {
-	  	padding-top: 30px;
-	  }
+  #sub-title {
+  	max-width: 400px;
+  	height: 120px;
+  	padding: 30px;
+  }
 
-	  #sub-title {
-	  	height: 100px;
-	  	padding: 30px 20px;}
-
-	  #deets {
-	  	font-size: 15px;
-	  }
+  #deets {
+  	font-size: 15px;
+  }
 
 
 
@@ -380,10 +378,6 @@ tbody {
 		width: 95%;
 		margin-left: 10px;
 	}
-
-
-}
-
 
 
 }
