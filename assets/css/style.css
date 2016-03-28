@@ -344,6 +344,11 @@ tbody {
 	font-size: 14px;
 }
 
+.navbar-brand img {
+	width: 100%;
+	padding: 0;
+
+}
 
 img {
 	width: 30%;
