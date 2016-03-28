@@ -359,8 +359,8 @@ tbody {
 
 
   .title {
-  	padding-top: 30px;
   	line-height: 1em;
+  	height: 200px;
   }
 
   .container {
@@ -379,15 +379,15 @@ tbody {
 
 
 
-	.schedule-table {
-		width: 80%;
-	}
+.schedule-table {
+	width: 80%;
+}
 
-	.faq-card {
+.faq-card {
 
-		width: 95%;
-		margin-left: 10px;
-	}
+	width: 95%;
+	margin-left: 10px;
+}
 
 
 }
