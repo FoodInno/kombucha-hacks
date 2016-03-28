@@ -359,15 +359,22 @@ tbody {
 
 
   #title {
-  	font-size: 35px;
+
+  	font-size: 38px;
+  	height: 60px;
   }
 
+  #container {
+   position: absolute;
+   top: 50%;
+   margin-top: -170px;
+  }
 
   #sub-title {
   	height: 90px;
   	padding: 15px 30px;
-  	font:; 15px;
   	display: inline-block;
+  	font-size: 14px;
   }
 
   #deets {
