@@ -345,7 +345,7 @@ tbody {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 320px) {
 
 
   .komb-div {
@@ -371,6 +371,7 @@ tbody {
   	max-width: 400px;
   	height: 120px;
   	padding: 30px;
+  	color: #000;
   }
 
   #deets {
