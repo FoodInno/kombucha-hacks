@@ -144,7 +144,7 @@ body {
 
 
  .affix {
-      top: 10;
+      top: 15;
       width: 100%;
       -webkit-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out;
@@ -154,16 +154,24 @@ body {
   }
   .affix a {
       color: #fff !important;
-      padding: 20px !important;
+      padding: 15px 20px !important;
       -webkit-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out;
   }
   .affix-top a {
-      padding: 10px 20px !important;
+      padding: 20px 20px !important;
   }
   .affix + .container-fluid {
       padding-top: 10px;
+      padding-bottom: 10px;
   }
+
+.bs-docs-sidenav.affix {
+  position: static;
+  width: auto;
+  top: 0;
+}
+
 
 
  .navbar-default .navbar-nav > li > a {
@@ -171,7 +179,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 600;
-  padding: 5px;
+  padding: 10px;
   position: relative;
   color: #fff;
   max-width: 335px;
@@ -184,6 +192,10 @@ width: 100%;
 overflow: hidden;
 padding-bottom: 50px;
 
+}
+
+.navbar-header {
+	height: 60px;
 }
 
 
@@ -371,6 +383,7 @@ tbody {
 .faq-card {
 
 	width: 95%;
+}
 
 
 
