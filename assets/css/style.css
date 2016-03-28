@@ -368,6 +368,7 @@ tbody {
   }
 
   #sub-title {
+  	height: 90px;
   	padding: 15px 30px;
   	display: inline-block;
   }
