@@ -172,8 +172,7 @@ body {
   font-weight: 600;
   padding: 5px;
   position: relative;
-  color: #fff;
-  max-width: 335px;
+  max-width: 400px;
 }
 
 
@@ -354,10 +353,14 @@ tbody {
   	float:none;
   }
 
+  .title {
+  	padding-top: 30px;
+  }
+
   #sub-title {
   	max-width: 400px;
-  	height: 100px;
-  	padding: 20px 35px; }
+  	height: 120px;
+  	padding: 30px 30px; }
 
   #deets {
   	font-size: 15px;
