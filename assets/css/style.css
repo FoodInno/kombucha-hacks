@@ -41,7 +41,7 @@ body {
 	color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover:after {
-  width: 100%;
+  	width: 100%;
 }
 
 
@@ -141,10 +141,8 @@ body {
 }
 
 
-
-
  .affix {
-      top: 15;
+      top: 10;
       width: 100%;
       -webkit-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out;
@@ -154,24 +152,16 @@ body {
   }
   .affix a {
       color: #fff !important;
-      padding: 15px 20px !important;
+      padding: 10px 20px !important;
       -webkit-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out;
   }
   .affix-top a {
-      padding: 20px 20px !important;
+      padding: 10px 20px !important;
   }
   .affix + .container-fluid {
       padding-top: 10px;
-      padding-bottom: 10px;
   }
-
-.bs-docs-sidenav.affix {
-  position: static;
-  width: auto;
-  top: 0;
-}
-
 
 
  .navbar-default .navbar-nav > li > a {
@@ -179,7 +169,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 600;
-  padding: 10px;
+  padding: 5px;
   position: relative;
   color: #fff;
   max-width: 335px;
@@ -192,10 +182,6 @@ width: 100%;
 overflow: hidden;
 padding-bottom: 50px;
 
-}
-
-.navbar-header {
-	height: 60px;
 }
 
 
@@ -260,8 +246,6 @@ padding-bottom: 50px;
 	float: left;
 
 }
-
-
 
 #deet-color {
 	color: #F0BA45;
@@ -383,7 +367,7 @@ tbody {
 .faq-card {
 
 	width: 95%;
-}
+	margin-left: 10px;
 
 
 
