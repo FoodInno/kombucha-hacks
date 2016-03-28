@@ -217,9 +217,9 @@ padding-bottom: 50px;
 }
 
 .komb-logo {
-	background: url(../images/kombucha-bottles.png) no-repeat center center;
+	background: url(../images/kombucha-shad.png) no-repeat center center;
 	background-size: cover;
-	width: 232px;
+	width: 250px;
 	height: 300px;
 	float: right;
 	margin-left: 20px;
@@ -374,7 +374,7 @@ tbody {
   	height: 90px;
   	padding: 15px 30px;
   	display: inline-block;
-  	font-size: 14px;
+  	font-size:
   }
 
   #deets {
