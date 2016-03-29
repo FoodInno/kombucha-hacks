@@ -311,6 +311,7 @@ padding-bottom: 50px;
 	width: 250px;
 	height: 300px;
 	float: right;
+	margin-top: 30px;
 	margin-left: 20px;
 
 }
@@ -484,7 +485,7 @@ img:hover {
 
   .komb-div {
   	max-width: 250px;
-  	padding-top: 30px;
+  	padding-top: 40px;
   	margin: 0 auto;
 
   }
