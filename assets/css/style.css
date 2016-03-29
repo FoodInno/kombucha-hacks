@@ -71,7 +71,6 @@ p > a:hover {
   width: 0;
   height: 3px;
   background-color: #fff;
-  content: "";
 
 }
 
@@ -158,25 +157,63 @@ p > a:hover {
 
 }
 
+.buttons-container {
+	max-width: 500px;
+	margin-top: 30px;
+	margin-left: auto;
+   	margin-right: auto;
+}
 
 
 .rsvp-button {
 	padding: 5px 25px;
 	font-family: 'Raleway', sans-serif;
-	width: 200px;
+	width: 150px;
 	font-size: 20px;
 	border: 1px #fff solid;
 	border-radius: 3px;
-	margin-left: auto;
-   	margin-right: auto;
-   	margin-top: 30px;
+   	margin:10px;
 	transition: all .4s ease-in-out;
+	display: inline-block;
+
 
 }
 
+.fb-button {
+	padding: 5px 25px;
+	background-color: #fff;
+	font-family: 'Raleway', sans-serif;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 3px;
+   	margin: 10px;
+	transition: all .4s ease-in-out;
+	display: inline-block;
+
+
+}
+
+.fb-button > a {
+	color: #000;
+
+}
+
+
+.rsvp-button > a {
+	color: #fff;
+}
+
+.rsvp-button > a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
 .rsvp-button:hover {
 	background-color: #fff;
-	color: #000;
+
 
 }
 
@@ -242,6 +279,7 @@ padding-bottom: 50px;
 	padding-top: 40px;
 	position: relative;
 	margin: 0px auto;
+
 }
 
 #section-content {
@@ -254,6 +292,19 @@ padding-bottom: 50px;
   line-height: 1.8em;
 
 }
+
+#club-content {
+  color: #333;
+  width: 500px;
+  float:left;
+  clear: left;
+  position: relative;
+  padding: 20px 35px;
+  line-height: 1.8em;
+
+}
+
+
 
 .komb-logo {
 	background: url(../images/kombucha-shad.png) no-repeat center center;
@@ -358,13 +409,19 @@ tbody {
 }
 
 
+.faq-box {
+	float: left;
+	width: 50%;
+	min-width: 300px;
+
+}
 
 .faq-card {
 
-	width: 45%;
+	width: 95%;
 	background-color: #fff;
 	border-radius: 3px;
-	padding: 40px 25px;
+	padding: 40px 30px;
 	margin: 10px;
 	display: inline-block;
 /*	box-shadow: 1px 1px 0.5px #CCC;
@@ -436,6 +493,10 @@ img:hover {
 
   }
 
+  #club-content {
+  	width: 400px;
+  }
+
   .club-div {
   	max-width: 155px;
   	margin: 0 auto;
@@ -470,6 +531,11 @@ img:hover {
   #deets {
   	font-size: 15px;
   }
+
+  .faq-box {
+	float: left;
+	width: 100%;
+}
 
 
 
