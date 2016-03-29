@@ -7,6 +7,45 @@ body {
 
 }
 
+p {
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}
+
+
+p > a {
+	color: #fff;
+	border-bottom: 1px dotted #999;
+	transition: .2s ease-in-out;
+}
+
+p > a:hover {
+	background-color: #F0BA45;
+	color: #fff;
+	text-decoration: none;
+}
+
+#link {
+
+	text-align: center;
+	display: inline-block;
+
+}
+
+#link > a {
+	border-bottom: 1px dotted #999;
+	transition: .2s ease-in-out;
+	color: #999;
+}
+
+#link > a:hover {
+	background-color: #F0BA45;
+	color: #fff;
+	text-decoration: none;
+}
+
+
 .wrapper {
 	overflow-x:hidden;
 }
@@ -350,11 +389,37 @@ tbody {
 
 }
 
+.club-logo {
+	background: url(../images/club-logo.png) no-repeat center center;
+	background-size: cover;
+	width: 155px;
+	height: 255px;
+	float: right;
+	margin-right: 20px;
+
+}
+
+
 img {
 	width: 30%;
 	padding: 20px;
+	opacity: .6;
 
 }
+
+img:hover {
+	opacity: 1;
+
+}
+
+.social img {
+	width: 12%;
+	padding: 5px;
+}
+
+
+
+
 
 
 @media (max-width: 480px) and (min-width: 320px) {
@@ -366,8 +431,18 @@ img {
   }
   .komb-logo {
   	margin: 0 auto;
-  	float:none;
+
   }
+
+  .club-div {
+  	margin: 20px;
+  }
+
+
+  .club-logo {
+  	margin: 0 auto;
+  }
+
 
 
   #title {
