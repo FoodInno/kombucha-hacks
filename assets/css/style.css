@@ -572,6 +572,10 @@ img:hover {
 	background-color: #000;
 }
 
+.container-fluid {
+	padding-top: 0px;
+}
+
 
 
 	.schedule-table {
