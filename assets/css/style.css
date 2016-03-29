@@ -73,6 +73,22 @@ p > a:hover {
 
 }
 
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+	background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+
+
+}
+
+.navbar-toggle .icon-bar {
+	height: 3px;
+	width: 25px;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
@@ -196,6 +212,19 @@ p > a:hover {
 
 }
 
+.fb-button > a:hover {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.fb-button:hover {
+
+	background-color: #000;
+	color: #fff;
+
+}
+
 
 .rsvp-button > a {
 	color: #fff;
@@ -208,9 +237,9 @@ p > a:hover {
 
 
 
-
 .rsvp-button:hover {
 	background-color: #fff;
+	color: #000;
 
 
 }
