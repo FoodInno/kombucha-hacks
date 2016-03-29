@@ -143,7 +143,6 @@ p > a:hover {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	font-weight: 600;
-	width: 400px;
 	height: 40px;
 	color: #999;
 	text-align: center;
@@ -218,30 +217,30 @@ p > a:hover {
 }
 
 
- .affix {
-      top: 10;
-      width: 100%;
-      -webkit-transition: all .5s ease-in-out;
-      transition: all .5s ease-in-out;
-      background-color: #000;
-      border-color: #000;
+.affix {
+  top: 10;
+  width: 100%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  background-color: #000;
+  border-color: #000;
 
-  }
-  .affix a {
-      color: #fff !important;
-      padding: 10px 20px !important;
-      -webkit-transition: all .5s ease-in-out;
-      transition: all .5s ease-in-out;
-  }
-  .affix-top a {
-      padding: 10px 20px !important;
-  }
-  .affix + .container-fluid {
-      padding-top: 10px;
-  }
+}
+.affix a {
+  color: #fff !important;
+  padding: 10px 20px !important;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.affix-top a {
+  padding: 10px 20px !important;
+}
+.affix + .container-fluid {
+  padding-top: 10px;
+}
 
 
- .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -318,7 +317,8 @@ padding-bottom: 50px;
 
 .event-deets-container {
 
-  max-width: 400px;
+  width: 100%;
+  min-width: 320px;
   float:left;
   clear: left;
   font-family: 'Open Sans', sans-serif;
@@ -494,7 +494,8 @@ img:hover {
   }
 
   #club-content {
-  	width: 400px;
+  	width: 100%;
+  	min-width: 320px;
   }
 
   .club-div {
@@ -535,19 +536,19 @@ img:hover {
   .faq-box {
 	float: left;
 	width: 100%;
-}
+	}
 
 
 
-.schedule-table {
-	width: 80%;
-}
+	.schedule-table {
+		width: 80%;
+	}
 
-.faq-card {
+	.faq-card {
 
-	width: 95%;
-	margin-left: 10px;
-}
+		width: 95%;
+		margin-left: 10px;
+	}
 
 
 }
