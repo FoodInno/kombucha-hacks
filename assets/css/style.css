@@ -73,9 +73,8 @@ p > a:hover {
 
 }
 
-.navbar-default .navbar-collapse {
+.navbar-collapse {
 	border-color: transparent;
-	background-color: #000;
 }
 
 .navbar-default .navbar-toggle {
@@ -86,7 +85,7 @@ p > a:hover {
 
 .navbar-toggle .icon-bar {
 	height: 3px;
-	width: 25px;
+	width:
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -566,6 +565,12 @@ img:hover {
 	float: left;
 	width: 100%;
 	}
+
+
+.navbar-collapse {
+	border-color: transparent;
+	background-color: #000;
+}
 
 
 
