@@ -7,6 +7,8 @@ body {
 
 }
 
+
+
 p {
 	text-align: center;
 	color: #fff;
@@ -310,7 +312,8 @@ padding-bottom: 50px;
 
 #section-content {
   color: #333;
-  width: 400px;
+   min-width: 300px;
+   max-width: 400px;
   float:left;
   clear: left;
   position: relative;
@@ -318,6 +321,35 @@ padding-bottom: 50px;
   line-height: 1.8em;
 
 }
+
+#section-content > a {
+	color: #333;
+	border-bottom: 1px dotted #999;
+	transition: .2s ease-in-out;
+}
+
+#section-content > a:hover {
+	background-color: #F0BA45;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+#what-is-kombucha {
+  color: #333;
+  margin: 0 auto;
+  position: relative;
+  min-width: 320px;
+   max-width: 650px;
+  padding: 20px 35px;
+  line-height: 1.8em;
+  background-color: #F1F1F1;
+  border-radius: 3px;
+  font-size: 14px;
+
+}
+
 
 #club-content {
   color: #333;
@@ -332,11 +364,23 @@ padding-bottom: 50px;
 
 
 
+
 .komb-logo {
 	background: url(../images/kombucha-shad.png) no-repeat center center;
 	background-size: cover;
 	width: 250px;
 	height: 300px;
+	float: right;
+	margin-top: 30px;
+	margin-left: 20px;
+
+}
+
+.house-logo {
+	background: url(../images/house-logo.png) no-repeat center center;
+	background-size: cover;
+	width: 200px;
+	height: 230px;
 	float: right;
 	margin-top: 30px;
 	margin-left: 20px;
@@ -497,9 +541,14 @@ img:hover {
 
 }
 
+.social-div {
+	margin: 0 auto;
+	width: 70%;
+}
+
 .social img {
-	width: 12%;
-	padding: 5px;
+	width: 20%;
+	padding: 10px;
 }
 
 
@@ -517,9 +566,16 @@ img:hover {
 
   }
   .komb-logo {
+  	float:none;
   	margin: 0 auto;
 
   }
+  .house-logo {
+  	float:none;
+  	margin: 0 auto;
+
+  }
+
 
   #club-content {
   	width: 100%;
@@ -564,17 +620,17 @@ img:hover {
   .faq-box {
 	float: left;
 	width: 100%;
+ 	}
+
+
+	.navbar-collapse {
+		border-color: transparent;
+		background-color: #000;
 	}
 
-
-.navbar-collapse {
-	border-color: transparent;
-	background-color: #000;
-}
-
-.container-fluid {
-	padding-top: 0px;
-}
+	.container-fluid {
+		padding-top: 0px;
+	}
 
 
 
