@@ -363,6 +363,32 @@ padding-bottom: 50px;
 }
 
 
+#hashtag-content {
+  color: #333;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 35px;
+  line-height: 1.8em;
+
+}
+
+.kind-bars{
+	background: url(../images/kind.png) no-repeat center center;
+	background-size: cover;
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+
+}
+
+#tag-color {
+	color: #F88D3B;
+	display: inline-block;
+	font-style: bold;
+}
+
+
 
 
 .komb-logo {
@@ -578,6 +604,11 @@ img:hover {
 
 
   #club-content {
+  	width: 100%;
+  	min-width: 320px;
+  }
+
+  #hashtag-content {
   	width: 100%;
   	min-width: 320px;
   }
