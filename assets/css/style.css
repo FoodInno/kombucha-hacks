@@ -603,8 +603,7 @@ img:hover {
   }
 
 .kind-bars{
-	background: url(../images/kind.png) no-repeat center center;
-	background-size: cover;
+
 	width: 300px;
 	height: 100px;
 	margin: 0 auto;
